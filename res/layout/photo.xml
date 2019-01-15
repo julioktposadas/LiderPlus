@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/photo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/lay_botones"
+        android:contentDescription="foto" />
+
+    <RelativeLayout
+        android:id="@+id/lay_botones"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:background="#6E6E6E"
+        android:orientation="horizontal" >
+
+	    <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="48sp"
+	        android:background="@color/greyVeryLgt"
+	        android:padding="3dp" >
+
+	        <Button
+	            android:id="@+id/b_cancelar"
+	            android:layout_width="0sp"
+	            android:layout_height="fill_parent"
+	            android:layout_weight="1"
+	            android:background="@drawable/item_selector_menu_grises"
+	            android:onClick="cancelar"
+	            android:text="Cancelar"
+	            android:textColor="#ffffff"
+	            android:textStyle="bold" />
+
+	        <View
+	            android:id="@+id/view1"
+	            android:layout_width="3dp"
+	            android:layout_height="wrap_content"
+	            />
+
+	        <Button
+	            android:id="@+id/bt_guardar"
+	            android:layout_width="0sp"
+	            android:layout_height="fill_parent"
+	            android:layout_weight="1"
+	            android:background="@drawable/item_selector_menu_azul"
+	            android:onClick="guardar"
+	            android:text="Guardar"
+	            android:textColor="#ffffff"
+	            android:textStyle="bold" />
+
+	    </LinearLayout>
+	    
+    </RelativeLayout>
+    
+    
+</RelativeLayout>

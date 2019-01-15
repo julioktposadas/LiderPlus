@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  
+      <string-array name="guardaRtasdias">
+        <item>5000 registros</item>
+        <item>9000 registros</item>
+        <item>15000 registros</item>
+        <item>20000 registros</item>
+    </string-array>
+    <string-array name="guardaRtasdiasValue">
+        <item>5000</item>
+        <item>9000</item>
+        <item>15000</item>
+        <item>20000</item>
+    </string-array>  
+      
+</resources>

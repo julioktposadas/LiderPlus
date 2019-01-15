@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+     <item android:id="@+id/mi_date" 
+        android:title="Actualizar"
+        android:showAsAction="always"
+        android:icon="@drawable/date_icon">
+   </item>
+   
+    <item android:id="@+id/mi_gps_vend" 
+        android:title="Actualizar"
+        android:showAsAction="always"
+        android:icon="@drawable/refresh">
+   </item>
+   
+  
+
+</menu>

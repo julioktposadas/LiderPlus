@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="gren_bar">#585858</color>
+    <color name="title_bar">#5D5D5D</color>
+   
+    <color name="PaleGreen">#CECECE</color>
+   
+    <color name="sa_green">#585858</color>
+    <color name="stacked_green">#585858</color>
+    <color name="accent_green">#585858</color>
+    <color name="pressed">#CC97e08f</color>
+    
+   <color name="orange_light">#99ffcc80</color>
+   
+    <color name="actionbar_separator">#ff121e56</color>
+    <color name="actionbar_title">#ffffffff</color>
+    <color name="actionbar_background_start">#00000000</color>
+    <color name="actionbar_background_end">#00000000</color>
+    <color name="actionbar_background_item_pressed_start">#00000000</color>
+    <color name="actionbar_background_item_pressed_end">#00000000</color>
+    
+   
+     <color name="list_item_title">#6495ED</color>
+    <color name="list_background">#ffffff</color>
+    <color name="list_background_pressed">#5E8EBA</color>
+    <color name="list_divider">#F0F0F0</color>
+    <color name="counter_text_bg">#ffffff</color>
+    <color name="counter_text_color">#585858</color>
+    
+    <color name="selector_verde">#97e08f</color>
+ 
+    <color name="yellow">#ffffff00</color>
+    <color name="fuchsia">#ffff00ff</color>
+    <color name="red">#ffff0000</color>
+    <color name="silver">#ffc0c0c0</color>
+    
+    <color name="olive">#ff808000</color>
+    <color name="purple">#ff800080</color>
+    <color name="maroon">#ff800000</color>
+    <color name="aqua">#ff00ffff</color>
+    <color name="lime">#ff00ff00</color>
+    <color name="teal">#ff008080</color>
+    <color name="green">#ff008000</color>
+  
+  
+ <color name="togo">#ff40434d</color>
+    <color name="togo_mint">#ff59c097</color>
+    <color name="dark_gray">#ff5d5d5d</color>
+    <color name="darker_gray">#ff3c3c3c</color>
+    <color name="backcolorBotoneraPrincipal">#5E8EBA</color>
+    <color name="backcolorBotoneraPrincipalClaro">#92B3CF</color>
+   
+    <color name="backcolorBotoneraPrincipalVerde">#ff59c097</color>
+    <color name="backcolorBotoneraPrincipalNegro">#ff000000</color>
+    <color name="backcolorBotoneraPrincipalRosa">#fff5a9bc</color>
+    <color name="backcolorBotoneraPrincipalAxum">#ff45a37e</color>
+    <color name="quilmes_blue">#ff242a40</color>
+    <color name="greyMed">#ffc9c9c9</color>
+    <color name="greyMed2">#ffa3a0a0</color>
+  
+    <color name="greyVeryLgt">#ffe6e6e6</color>
+    <color name="edicion">#ff78bd9a</color>
+    <color name="estadoPedidos">#ff3498db</color>
+    <color name="estadoNoCompra">#ffe74c3c</color>
+    <color name="estadoRelevamientos">#ff2ecc71</color>
+    <color name="estadoPresupuesto">#fff1c40f</color>
+    <color name="estadoCobranzas">#ffe67e22</color>
+    <color name="estadoDevoluciones">#ff8e44ad</color>
+    <color name="textoTop">#ff428bca</color>
+    <color name="textoOperacionDevolucion">#ffe74c3c</color>
+    <color name="estadoSinGpsyPedAnt">#fff39c12</color>
+    <color name="textColorCamposAltaCliente">#ff0174df</color>
+    <color name="screen_background">#fff5f5f5</color>
+    <color name="quilmes_gray_ebebeb">#ffebebeb</color>
+    <color name="colorPrimary">#ff585858</color>
+    <color name="colorPrimary2">#585858</color>
+    <color name="colorStatusBar">#ff2e2e2e</color>
+    <color name="custom_theme_color">#ffb0b0ff</color>
+    <color name="GhostWhite">#fff8f8ff</color>
+    <color name="greyLgt">#AFC8DC</color>
+    <color name="Orange">#ffffa500</color>
+    <color name="azulSelector">#AFC8DC</color>
+   <color name="Gray">#ff808080</color>
+    
+</resources>

@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  
+    tools:context="com.axum.liderplus.FormHistorico" >
+
+ <LinearLayout
+     android:id="@+id/ly_spiner"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:orientation="vertical"
+     android:paddingLeft="7dp"
+     android:paddingRight="7dp" >
+        
+         <Spinner
+         android:id="@+id/sp_tarea"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content" />
+         
+    </LinearLayout>
+    
+
+    <LinearLayout
+        android:id="@+id/layou_tarea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ly_spiner"
+        android:orientation="vertical"
+        android:paddingBottom="7dp"
+        android:paddingLeft="7dp"
+        android:paddingRight="7dp" >
+  
+    	<EditText
+    	    android:id="@+id/t_tarea"
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="wrap_content"
+    	  
+    	    android:paddingBottom="5dp" >
+
+      </EditText>
+
+    <Button
+        android:id="@+id/b_agregar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/save"
+        android:gravity="top|center_horizontal"
+        android:text="Guardar Tarea"
+        android:textColor="@color/gray"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+  </LinearLayout>
+
+    <ListView
+        android:id="@+id/l_tareas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/layou_tarea"
+        >
+
+    </ListView>
+
+   
+
+</RelativeLayout>
+

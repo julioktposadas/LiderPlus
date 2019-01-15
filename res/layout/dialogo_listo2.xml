@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+     <ScrollView
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:paddingLeft="5dp" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp"
+            android:paddingTop="4dp" >
+
+         <LinearLayout
+    android:id="@+id/l_trabajo"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:focusable="true"
+    android:orientation="vertical"
+    android:visibility="visible" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Minutos máximo fuera de linea"
+            android:textColor="@color/blue"
+            android:textStyle="bold" />
+
+        <requestFocus />
+
+        <EditText
+            android:id="@+id/tx_tiempo_max"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="00"
+            android:inputType="number"
+            android:text="30" />
+
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tex_cliente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hora inicio de trabajo"
+            android:textColor="@color/blue"
+            android:textStyle="bold" />
+
+       
+
+        <EditText
+            android:id="@+id/tx_hora_inicio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="00:00"
+            android:inputType="number" />
+
+    </LinearLayout>  
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:orientation="vertical" >
+
+         <TextView
+             
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Hora fin de trabajo"
+             android:textColor="@color/blue"
+             android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/tx_hora_fin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="00:00"
+            android:inputType="number" />
+
+    </LinearLayout>
+    
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tex_tienda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/blue"
+            android:textStyle="bold" />
+
+        <requestFocus />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#CCCCCC"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp" >
+
+            <Button
+                android:id="@+id/cancelar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.50"
+                android:background="@drawable/item_selector_menu_grises"
+                android:text="Cancelar"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:id="@+id/save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.50"
+                android:background="@drawable/item_selector_menu_azul"
+                android:text="Aplicar"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+
+    </LinearLayout>
+    
+    
+    
+
+</LinearLayout>
+
+        
+        
+        
+    </ScrollView>
+    
+
+</RelativeLayout>
+
+
+
+
+
+
+
+

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:layout_width="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+   
+    
+    
+    <PreferenceCategory 
+        android:title="Notificación"
+         android:key="first_category">
+        <CheckBoxPreference 
+            android:title="Acticar notificación de vendedor fuera de linea" 
+            android:key="key_servicio" 
+            android:summary="Acticar notificación de vendedor fuera de linea" 
+            android:defaultValue="false" />
+       
+    </PreferenceCategory> 
+    
+    
+    
+    <PreferenceCategory
+         android:title="Censos/Relevamientos" 
+         android:key="second_category">
+        <CheckBoxPreference 
+            android:title="Responder todas" 
+            android:key="check_todas_rtas" 
+            android:summary="Responder todas las preguntas asignadas al cliente" 
+            android:defaultValue="false" />
+        <ListPreference android:entries="@array/guardaRtasdias" 
+            android:title="Respuetas-Cantidad Maxima"
+            android:key="guardar_rtas_dias" 
+            android:summary="Mantener las respuestas guardadas en el equipo  " 
+            android:defaultValue="9000" 
+            android:entryValues="@array/guardaRtasdiasValue" />
+    </PreferenceCategory>
+    
+
+  
+<PreferenceCategory
+        android:title="INFO GRAL">
+        
+    <EditTextPreference
+   		 android:key="correo"
+         android:summary="Ingrese su dirección de correo electrónico"
+         android:dialogTitle="e-mail " 
+         android:title="Direccion de correo" />
+    
+ 		<Preference
+            android:title="Version"
+            android:summary="@string/version_name"
+            android:key="version" />
+ 		
+ 		<Preference
+    		android:key="key_resetear"
+    		android:title="Resetear tilde relevamiento" />
+ 		
+ 
+ 		
+ 		<Preference
+    		android:key="key_login"
+    		android:title="Borrar Licencia" />
+ 		
+  </PreferenceCategory>
+</PreferenceScreen>

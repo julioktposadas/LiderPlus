@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+<item android:id="@+id/i_cargar" android:title="Cargar" />
+ <item android:id="@+id/i_info"  android:title="Info Cliente" />
+<item android:id="@+id/i_historico"   android:title="Historico" />
+<item android:id="@+id/i_ubicacion"   android:title="Ubicación" />
+       
+   
+        
+</menu>

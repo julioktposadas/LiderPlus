@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/layFooterClientes"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+    
+         <LinearLayout
+                android:id="@+id/layFooterClientes2"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@color/backcolorBotoneraPrincipal"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/ivFooterEnviarDatos"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="35dp"
+                android:background="@drawable/item_selector_menu"
+                android:clickable="true"
+                android:onClick="enviarDatos"
+                android:src="@drawable/ic_send" />
+
+            <ImageView
+                android:id="@+id/ivFooterActualizar"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="35dp"
+                android:background="@drawable/item_selector_menu"
+                android:clickable="true"
+                android:onClick="actualizarDatos"
+                android:src="@drawable/ic_footer_update" />
+
+            <ImageView
+                android:id="@+id/ivFooterMapa"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/item_selector_menu"
+                android:clickable="true"
+                android:onClick="mapaClientes"
+                android:src="@drawable/ic_footer_mapa" />
+            
+            <ImageView
+                android:id="@+id/ivFooterInfoEstado"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="35dp"
+                android:background="@drawable/item_selector_menu"
+                android:clickable="true"
+                android:src="@drawable/ic_footer_infoestados" />
+
+        </LinearLayout>
+
+    
+</LinearLayout>

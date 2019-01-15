@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.axum.lider.FormEncuesta " >
+
+<item android:id="@+id/menu_carga"
+         android:title="Guardar" 
+         android:orderInCategory="100"
+         android:alphabeticShortcut="r" 
+         android:icon="@+drawable/save_icon" 
+        android:showAsAction="ifRoom|collapseActionView"
+         />
+    
+     <item
+        android:id="@+id/mi_borrar_todo"
+        android:orderInCategory="100"
+        android:title="Borrar todo "/>
+</menu>

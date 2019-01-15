@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.axum.manager.MenuPpal" >
+
+    <item
+        android:id="@+id/mi_menu_salir"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@+drawable/ic_menu_close_clear_cancel2" 
+        android:title="Salir"/>
+    
+   
+</menu>
