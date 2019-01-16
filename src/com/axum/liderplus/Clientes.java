@@ -513,7 +513,7 @@ public void volver(){
 	    LayoutInflater inflater = (LayoutInflater) this.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
 	    AlertDialog.Builder builder = null;
 	    		 dialog = new Dialog(this);
-	            final View v = inflater.inflate(R.layout.form_historico, null);
+	            final View v = inflater.inflate(R.layout.form_detallecliente, null);
 	            //********
 	           // LinearLayout l1 = (LinearLayout) v.findViewById(R.id.linearLayout_Relev_Views1);
 	            WebView myWebView  = (WebView)  v.findViewById(R.id.webResumen);
